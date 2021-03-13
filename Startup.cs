@@ -35,6 +35,7 @@ namespace GoogleAuth
                 })
                 .AddGoogle(options =>
                 {
+                    // Provide Google authentication Credientials from Google API
                     options.ClientId = "";
                     options.ClientSecret = "";
                 });
